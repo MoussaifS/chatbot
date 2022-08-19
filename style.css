@@ -1,0 +1,101 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+  height: 95%;
+  border: 1px solid black;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid re
+}
+
+#MessageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 95%;
+    width: 90%;
+    margin-bottom: 7px;
+  }
+  
+
+#message {
+  background-color: white;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  border: 1px solid black;
+}
+#message :focus {
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+#message input {
+  width: 100%;
+  height: 2rem;
+  box-shadow: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#message button {
+  width: 10%;
+  background-color: rgba(0, 128, 0, 0.247);
+  border: none;
+  cursor: pointer;
+}
+
+.user {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 7px;
+}
+
+.userMessage {
+  background-color: rgba(0, 128, 0, 0.315);
+  border-radius: 3px;
+  padding: 10px 10px 5px 10px;
+  font-size: 1.2rem;
+}
+
+.respond {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 7px;
+}
+
+.respondMessage {
+  background-color: rgba(27, 125, 218, 0.315);
+  border-radius: 3px;
+  padding: 10px 10px 5px 10px;
+  font-size: 1.2rem;
+}
+
+#MessageContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  height: 95%;
+  border: 1px solid black;
+}
