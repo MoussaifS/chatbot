@@ -16,18 +16,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  border: 1px solid re
+  border: 1px solid re;
 }
-
-#MessageContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    height: 95%;
-    width: 90%;
-    margin-bottom: 7px;
-  }
-  
 
 #message {
   background-color: white;
@@ -61,9 +51,17 @@ body {
   cursor: pointer;
 }
 
-.user {
+#MessageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 95%;
+  width: 90%;
+  margin-bottom: 7px;
+}
+
+#user {
   width: 100%;
-  border: 1px solid black;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -77,11 +75,12 @@ body {
   font-size: 1.2rem;
 }
 
-.respond {
+#respond {
   width: 100%;
-  border: 1px solid black;
+
   display: flex;
   align-items: flex-end;
+
   margin-bottom: 7px;
 }
 
@@ -94,8 +93,6 @@ body {
 
 #MessageContainer {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  flex-direction: column;
   height: 95%;
-  border: 1px solid black;
 }
